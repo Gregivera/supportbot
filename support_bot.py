@@ -75,4 +75,4 @@ async def on_message(message):
     # If the message is not in the help channel or a DM, do not respond
 
 # Replace 'YOUR_BOT_TOKEN' with your bot's token
-client.run('SUPPORT_BOT_TOKEN')
+client.run(os.getenv('SUPPORT_BOT_TOKEN'))
